@@ -15,7 +15,7 @@
 I build Python services that take LLM agents into production for financial-services teams, and I contribute to the runtime, session, and messaging layers of open-source coding-agent tools.
 
 - **AI Engineer at 4season.ai**, building backend services for KB Securities' enterprise AI agent platform (on this client since Jul 2025): answer persistence, deterministic checks before scheduled agent results reach users, and asynchronous execution over SQS and Lambda.
-- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->0<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->3<!-- oss:repos:end --> repositories since Jul 2026.
+- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->49<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->3<!-- oss:repos:end --> repositories since Jul 2026.
 
 ```text
 💼 Day job       AI Engineer at 4season.ai, KB Securities AI agent platform
