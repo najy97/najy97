@@ -27,11 +27,35 @@ I build Python services that take LLM agents into production for financial-servi
 ## 🧩 Open source
 
 <!-- oss:table:start -->
-| Project | ★ | What it is | My contributions |
-| --- | --: | --- | --- |
-| **[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** | 3.1k | Terminal AI coding-agent harness (TypeScript) | [33 merged PRs](https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97), [13 issues](https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97) |
-| **[Yeachan-Heo/gajae-way](https://github.com/Yeachan-Heo/gajae-way)** | 61 | Gateway for operator-owned agent sessions on Discord and Telegram | [11 merged PRs](https://github.com/Yeachan-Heo/gajae-way/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97), [6 issues](https://github.com/Yeachan-Heo/gajae-way/issues?q=is%3Aissue%20author%3Anajy97) |
-| **[Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip)** | 937 | Event-to-channel notification router (Rust) | [5 merged PRs](https://github.com/Yeachan-Heo/clawhip/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97), [1 issue](https://github.com/Yeachan-Heo/clawhip/issues?q=is%3Aissue%20author%3Anajy97) |
+<div align="center">
+
+<img src="https://img.shields.io/badge/merged_PRs-49-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 49" /> <img src="https://img.shields.io/badge/repositories-3-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 3" /> <img src="https://img.shields.io/badge/issues_opened-20-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 20" />
+
+</div>
+
+<table>
+<thead><tr><th align="left">Project</th><th>Stars</th><th>Language</th><th align="left">My contributions</th></tr></thead>
+<tbody>
+<tr>
+<td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-code"><b>Yeachan-Heo/gajae-code</b></a><br /><sub>Terminal AI coding-agent harness</sub></td>
+<td align="center"><a href="https://github.com/Yeachan-Heo/gajae-code/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-3.1k-e3b341?style=flat-square" alt="★ 3.1k" /></a></td>
+<td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
+<td><a href="https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-33-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 33" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-13-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 13" /></a></td>
+</tr>
+<tr>
+<td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-way"><b>Yeachan-Heo/gajae-way</b></a><br /><sub>Gateway for operator-owned agent sessions on Discord and Telegram</sub></td>
+<td align="center"><a href="https://github.com/Yeachan-Heo/gajae-way/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-61-e3b341?style=flat-square" alt="★ 61" /></a></td>
+<td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
+<td><a href="https://github.com/Yeachan-Heo/gajae-way/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-11-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 11" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-way/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-6-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 6" /></a></td>
+</tr>
+<tr>
+<td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/clawhip"><b>Yeachan-Heo/clawhip</b></a><br /><sub>Event-to-channel notification router</sub></td>
+<td align="center"><a href="https://github.com/Yeachan-Heo/clawhip/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-937-e3b341?style=flat-square" alt="★ 937" /></a></td>
+<td align="center"><img src="https://img.shields.io/badge/Rust-b7410e?style=flat-square&logo=rust&logoColor=white" alt="Rust" /></td>
+<td><a href="https://github.com/Yeachan-Heo/clawhip/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-5-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 5" /></a><br /><a href="https://github.com/Yeachan-Heo/clawhip/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-1-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 1" /></a></td>
+</tr>
+</tbody>
+</table>
 
 <sub>Merged since 2026-07-01. Updated 2026-11-08 by GitHub Actions.</sub>
 <!-- oss:table:end -->
@@ -129,6 +153,7 @@ I build Python services that take LLM agents into production for financial-servi
 ## 🔬 Research (2022 to 2024)
 
 - **[remotebiosensing/rppg](https://github.com/remotebiosensing/rppg)**: benchmark framework for fair evaluation of remote photoplethysmography. Preprocessing, signal processing, and model evaluation; 3rd contributor by commits. Co-author of [arXiv:2307.12644](https://arxiv.org/abs/2307.12644).
+- **[Asymmetric Key Encryption-Based Telehealth for Ensuring Personal Sensitive Data Sovereignty in MyData Environment](https://doi.org/10.5391/jkiis.2023.33.6.485)**: first author. Journal of Korean Institute of Intelligent Systems 33(6), 485-494, 2023 (KCI). DID/VC identity, asymmetric key encryption, and rPPG-based verification for remote care.
 - M.S. in Electronics and Communications Engineering, Kwangwoon University (2024).
 
 ## 🐍 Contribution snake

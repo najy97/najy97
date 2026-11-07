@@ -7,6 +7,7 @@ by someone else, starting at SINCE. Replaces the text between the
 Exits non-zero without writing when the API answer is incomplete.
 """
 
+import html
 import json
 import os
 import re
@@ -24,9 +25,18 @@ README = Path(__file__).resolve().parent.parent / "README.md"
 # Repository descriptions written for this profile. Repositories missing here
 # fall back to their GitHub description.
 DESCRIPTIONS = {
-    "Yeachan-Heo/gajae-code": "Terminal AI coding-agent harness (TypeScript)",
+    "Yeachan-Heo/gajae-code": "Terminal AI coding-agent harness",
     "Yeachan-Heo/gajae-way": "Gateway for operator-owned agent sessions on Discord and Telegram",
-    "Yeachan-Heo/clawhip": "Event-to-channel notification router (Rust)",
+    "Yeachan-Heo/clawhip": "Event-to-channel notification router",
+}
+
+# Language badge colour and simple-icons logo.
+LANGUAGES = {
+    "TypeScript": ("3178c6", "typescript"),
+    "JavaScript": ("f7df1e", "javascript"),
+    "Python": ("3776ab", "python"),
+    "Rust": ("b7410e", "rust"),
+    "Go": ("00add8", "go"),
 }
 
 API = "https://api.github.com"
@@ -62,6 +72,21 @@ def stars(n):
     return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
 
 
+def badge(label, message, color, logo=None, style="flat-square"):
+    def part(s):
+        return urllib.parse.quote(str(s).replace("-", "--").replace("_", "__").replace(" ", "_"), safe="")
+    path = f"{part(label)}-{part(message)}-{color}" if label else f"{part(message)}-{color}"
+    src = f"https://img.shields.io/badge/{path}?style={style}"
+    if logo:
+        src += f"&logo={logo}&logoColor=white"
+    alt = html.escape(f"{label} {message}".strip())
+    return f'<img src="{src}" alt="{alt}" />'
+
+
+def link(href, inner):
+    return f'<a href="{href}">{inner}</a>'
+
+
 def plural(n, word):
     return f"{n} {word}" if n == 1 else f"{n} {word}s"
 
@@ -92,19 +117,36 @@ def main():
 
     q_pr = "pulls?q=" + urllib.parse.quote(f"is:pr is:merged author:{USER}")
     q_issue = "issues?q=" + urllib.parse.quote(f"is:issue author:{USER}")
-    rows = [
-        "| Project | ★ | What it is | My contributions |",
-        "| --- | --: | --- | --- |",
-    ]
+    rows = []
     for r in repos:
         url = f"https://github.com/{r}"
-        desc = DESCRIPTIONS.get(r) or (info[r].get("description") or "").replace("|", "\\|")
-        cells = [f"[{plural(len(prs[r]), 'merged PR')}]({url}/{q_pr})"]
+        owner = r.split("/")[0]
+        desc = html.escape(DESCRIPTIONS.get(r) or info[r].get("description") or "")
+        lang = info[r].get("language")
+        color, logo = LANGUAGES.get(lang, ("6e7681", None))
+        lang_cell = badge("", lang, color, logo) if lang else ""
+        contrib = [link(f"{url}/{q_pr}", badge("merged PRs", len(prs[r]), "8957e5", "github"))]
         if issue_count[r]:
-            cells.append(f"[{plural(issue_count[r], 'issue')}]({url}/{q_issue})")
+            contrib.append(link(f"{url}/{q_issue}", badge("issues", issue_count[r], "1f6feb", "github")))
         rows.append(
-            f"| **[{r}]({url})** | {stars(info[r]['stargazers_count'])} | {desc} | {', '.join(cells)} |"
+            "<tr>\n"
+            f'<td><img src="https://github.com/{owner}.png?size=48" width="24" height="24" alt="" /> '
+            f'<a href="{url}"><b>{html.escape(r)}</b></a><br /><sub>{desc}</sub></td>\n'
+            f'<td align="center">{link(f"{url}/stargazers", badge("★", stars(info[r]["stargazers_count"]), "e3b341"))}</td>\n'
+            f'<td align="center">{lang_cell}</td>\n'
+            f'<td>{"<br />".join(contrib)}</td>\n'
+            "</tr>"
         )
+    total_issues = sum(issue_count.values())
+    summary = " ".join([
+        badge("merged PRs", len(merged), "8957e5", "github", style="for-the-badge"),
+        badge("repositories", len(repos), "0891b2", "github", style="for-the-badge"),
+        badge("issues opened", total_issues, "1f6feb", "github", style="for-the-badge"),
+    ])
+    header = (
+        '<thead><tr><th align="left">Project</th><th>Stars</th>'
+        '<th>Language</th><th align="left">My contributions</th></tr></thead>'
+    )
 
     lines = []
     for r in repos:
@@ -114,7 +156,11 @@ def main():
             lines.append(f"- [#{item['number']}]({item['html_url']}) {title}")
 
     today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
-    table = "\n".join(rows) + f"\n\n<sub>Merged since {SINCE}. Updated {today} by GitHub Actions.</sub>"
+    table = (
+        f'<div align="center">\n\n{summary}\n\n</div>\n\n'
+        f"<table>\n{header}\n<tbody>\n" + "\n".join(rows) + "\n</tbody>\n</table>\n\n"
+        f"<sub>Merged since {SINCE}. Updated {today} by GitHub Actions.</sub>"
+    )
     details = (
         f"<details>\n<summary>All {len(merged)} merged PRs</summary>\n"
         + "\n".join(lines)
