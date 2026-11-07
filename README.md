@@ -6,7 +6,7 @@
 
 <a href="https://www.linkedin.com/in/junyeong-na-90355a211/"><img src="https://img.shields.io/badge/LinkedIn-Junyeong_Na-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-서울에서 금융권 AI 에이전트 백엔드를 만들고, 오픈소스 코딩 에이전트 런타임에 기여합니다.
+KB증권 사내 AI 에이전트 서비스의 백엔드를 개발하고 있습니다. 코딩 에이전트 하네스 등 오픈소스 프로젝트에도 기여하고 있습니다.
 
 </div>
 
