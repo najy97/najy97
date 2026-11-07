@@ -154,6 +154,7 @@ I build Python services that take LLM agents into production for financial-servi
 
 - **[remotebiosensing/rppg](https://github.com/remotebiosensing/rppg)**: benchmark framework for fair evaluation of remote photoplethysmography. Preprocessing, signal processing, and model evaluation; 3rd contributor by commits. Co-author of [arXiv:2307.12644](https://arxiv.org/abs/2307.12644).
 - **[Asymmetric Key Encryption-Based Telehealth for Ensuring Personal Sensitive Data Sovereignty in MyData Environment](https://doi.org/10.5391/jkiis.2023.33.6.485)**: first author. Journal of Korean Institute of Intelligent Systems 33(6), 485-494, 2023 (KCI). DID/VC identity, asymmetric key encryption, and rPPG-based verification for remote care.
+- **Korean patent application** 10-2023-0174510, pending (filed Dec 2023, published as [KR20250085887A](https://patents.google.com/patent/KR20250085887A/en)): asymmetric key encryption-based telemedicine system for personal data sovereignty in a MyData environment. First-listed inventor.
 - M.S. in Electronics and Communications Engineering, Kwangwoon University (2024).
 
 ## 🐍 Contribution snake
