@@ -63,7 +63,7 @@ I build Python services that take LLM agents into production for financial-servi
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-14 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-15 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
