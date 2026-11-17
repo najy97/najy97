@@ -50,7 +50,7 @@ I build Python services that take LLM agents into production for financial-servi
 </tr>
 <tr>
 <td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/clawhip"><b>Yeachan-Heo/clawhip</b></a><br /><sub>Event-to-channel notification router</sub></td>
-<td align="center"><a href="https://github.com/Yeachan-Heo/clawhip/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-937-e3b341?style=flat-square" alt="★ 937" /></a></td>
+<td align="center"><a href="https://github.com/Yeachan-Heo/clawhip/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-936-e3b341?style=flat-square" alt="★ 936" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/Rust-b7410e?style=flat-square&logo=rust&logoColor=white" alt="Rust" /></td>
 <td><a href="https://github.com/Yeachan-Heo/clawhip/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-5-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 5" /></a><br /><a href="https://github.com/Yeachan-Heo/clawhip/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-1-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 1" /></a></td>
 </tr>
@@ -63,7 +63,7 @@ I build Python services that take LLM agents into production for financial-servi
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-16 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-17 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
