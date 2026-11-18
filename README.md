@@ -29,7 +29,7 @@ I build Python services that take LLM agents into production for financial-servi
 <!-- oss:table:start -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/merged_PRs-61-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 61" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-22-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 22" />
+<img src="https://img.shields.io/badge/merged_PRs-61-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 61" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-23-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 23" />
 
 </div>
 
@@ -58,12 +58,12 @@ I build Python services that take LLM agents into production for financial-servi
 <td><img src="https://github.com/devswha.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/devswha/ovis"><b>devswha/ovis</b></a><br /><sub>Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts</sub></td>
 <td align="center"><a href="https://github.com/devswha/ovis/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-2.1k-e3b341?style=flat-square" alt="★ 2.1k" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
-<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-1-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 1" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-2-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 2" /></a></td>
+<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-1-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 1" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-3-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 3" /></a></td>
 </tr>
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-17 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-18 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
