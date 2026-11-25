@@ -15,7 +15,7 @@ KB증권 사내 AI 에이전트 서비스의 백엔드를 개발하고 있습니
 I build Python services that take LLM agents into production for financial-services teams, and I contribute to the runtime, session, and messaging layers of open-source coding-agent tools.
 
 - **AI Engineer at 4season.ai**, building backend services for KB Securities' enterprise AI agent platform (on this client since Jul 2025): answer persistence, deterministic checks before scheduled agent results reach users, and asynchronous execution over SQS and Lambda.
-- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->90<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
+- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->94<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
 
 ```text
 💼 Day job       AI Engineer at 4season.ai, KB Securities AI agent platform
@@ -29,7 +29,7 @@ I build Python services that take LLM agents into production for financial-servi
 <!-- oss:table:start -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/merged_PRs-90-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 90" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-24-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 24" />
+<img src="https://img.shields.io/badge/merged_PRs-94-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 94" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-26-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 26" />
 
 </div>
 
@@ -40,7 +40,7 @@ I build Python services that take LLM agents into production for financial-servi
 <td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-code"><b>Yeachan-Heo/gajae-code</b></a><br /><sub>Terminal AI coding-agent harness</sub></td>
 <td align="center"><a href="https://github.com/Yeachan-Heo/gajae-code/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-3.1k-e3b341?style=flat-square" alt="★ 3.1k" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
-<td><a href="https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-60-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 60" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-14-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 14" /></a></td>
+<td><a href="https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-64-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 64" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-15-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 15" /></a></td>
 </tr>
 <tr>
 <td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-way"><b>Yeachan-Heo/gajae-way</b></a><br /><sub>Gateway for operator-owned agent sessions on Discord and Telegram</sub></td>
@@ -58,12 +58,12 @@ I build Python services that take LLM agents into production for financial-servi
 <td><img src="https://github.com/devswha.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/devswha/ovis"><b>devswha/ovis</b></a><br /><sub>Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts</sub></td>
 <td align="center"><a href="https://github.com/devswha/ovis/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-2.2k-e3b341?style=flat-square" alt="★ 2.2k" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
-<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-2-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 2" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-3-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 3" /></a></td>
+<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-2-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 2" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-4-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 4" /></a></td>
 </tr>
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-24 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-25 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
@@ -75,10 +75,14 @@ I build Python services that take LLM agents into production for financial-servi
 
 <!-- oss:details:start -->
 <details>
-<summary>All 90 merged PRs</summary>
+<summary>All 94 merged PRs</summary>
 
-**[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** (60)
+**[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** (64)
 
+- [#8009](https://github.com/Yeachan-Heo/gajae-code/pull/8009) fix(sdk): keep session hosts alive under a replacement broker and during a turn (#7998)
+- [#8010](https://github.com/Yeachan-Heo/gajae-code/pull/8010) fix(bash): prefer identity-bound signals when sparing the SDK broker (#8003 follow-up)
+- [#8007](https://github.com/Yeachan-Heo/gajae-code/pull/8007) fix(auth): keep one OpenAI Codex credential per ChatGPT workspace
+- [#8003](https://github.com/Yeachan-Heo/gajae-code/pull/8003) fix(exec): spare the published SDK broker from bash guardian cleanup on darwin (#7998)
 - [#7977](https://github.com/Yeachan-Heo/gajae-code/pull/7977) fix(sdk): keep late spawn rechecks open past index lock stalls
 - [#7964](https://github.com/Yeachan-Heo/gajae-code/pull/7964) fix(sdk): admit spawn children whose registration read began before the deadline
 - [#7968](https://github.com/Yeachan-Heo/gajae-code/pull/7968) fix(sdk): give raw global session.close refusals the close recovery step
