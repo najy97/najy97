@@ -15,7 +15,7 @@ KB증권 사내 AI 에이전트 서비스의 백엔드를 개발하고 있습니
 I build Python services that take LLM agents into production for financial-services teams, and I contribute to the runtime, session, and messaging layers of open-source coding-agent tools.
 
 - **AI Engineer at 4season.ai**, building backend services for KB Securities' enterprise AI agent platform (on this client since Jul 2025): answer persistence, deterministic checks before scheduled agent results reach users, and asynchronous execution over SQS and Lambda.
-- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->94<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
+- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->95<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
 
 ```text
 💼 Day job       AI Engineer at 4season.ai, KB Securities AI agent platform
@@ -29,7 +29,7 @@ I build Python services that take LLM agents into production for financial-servi
 <!-- oss:table:start -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/merged_PRs-94-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 94" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-26-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 26" />
+<img src="https://img.shields.io/badge/merged_PRs-95-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 95" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-26-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 26" />
 
 </div>
 
@@ -58,12 +58,12 @@ I build Python services that take LLM agents into production for financial-servi
 <td><img src="https://github.com/devswha.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/devswha/ovis"><b>devswha/ovis</b></a><br /><sub>Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts</sub></td>
 <td align="center"><a href="https://github.com/devswha/ovis/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-2.2k-e3b341?style=flat-square" alt="★ 2.2k" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
-<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-2-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 2" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-4-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 4" /></a></td>
+<td><a href="https://github.com/devswha/ovis/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-3-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 3" /></a><br /><a href="https://github.com/devswha/ovis/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-4-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 4" /></a></td>
 </tr>
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-25 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-26 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
@@ -75,7 +75,7 @@ I build Python services that take LLM agents into production for financial-servi
 
 <!-- oss:details:start -->
 <details>
-<summary>All 94 merged PRs</summary>
+<summary>All 95 merged PRs</summary>
 
 **[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** (64)
 
@@ -178,8 +178,9 @@ I build Python services that take LLM agents into production for financial-servi
 - [#386](https://github.com/Yeachan-Heo/clawhip/pull/386) feat(webhook): verify GitHub signatures and route comment/review events
 - [#382](https://github.com/Yeachan-Heo/clawhip/pull/382) feat(github): opt-in PR review and comment notifications
 
-**[devswha/ovis](https://github.com/devswha/ovis)** (2)
+**[devswha/ovis](https://github.com/devswha/ovis)** (3)
 
+- [#4581](https://github.com/devswha/ovis/pull/4581) fix(prompt): show a gjc ask question whole, in its own Markdown
 - [#4020](https://github.com/devswha/ovis/pull/4020) fix(terminal): avoid herdr-core arrow-key quiet waits
 - [#3540](https://github.com/devswha/ovis/pull/3540) feat(chat): offer GJC's and omp's suggested next prompt
 
