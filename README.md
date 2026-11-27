@@ -15,7 +15,7 @@ KB증권 사내 AI 에이전트 서비스의 백엔드를 개발하고 있습니
 I build Python services that take LLM agents into production for financial-services teams, and I contribute to the runtime, session, and messaging layers of open-source coding-agent tools.
 
 - **AI Engineer at 4season.ai**, building backend services for KB Securities' enterprise AI agent platform (on this client since Jul 2025): answer persistence, deterministic checks before scheduled agent results reach users, and asynchronous execution over SQS and Lambda.
-- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->95<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
+- **Open-source contributor** to the Gajae Code agent ecosystem: <!-- oss:total:start -->98<!-- oss:total:end --> merged PRs across <!-- oss:repos:start -->4<!-- oss:repos:end --> repositories since Jul 2026.
 
 ```text
 💼 Day job       AI Engineer at 4season.ai, KB Securities AI agent platform
@@ -29,7 +29,7 @@ I build Python services that take LLM agents into production for financial-servi
 <!-- oss:table:start -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/merged_PRs-95-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 95" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-26-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 26" />
+<img src="https://img.shields.io/badge/merged_PRs-98-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="merged PRs 98" /> <img src="https://img.shields.io/badge/repositories-4-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="repositories 4" /> <img src="https://img.shields.io/badge/issues_opened-28-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="issues opened 28" />
 
 </div>
 
@@ -40,7 +40,7 @@ I build Python services that take LLM agents into production for financial-servi
 <td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-code"><b>Yeachan-Heo/gajae-code</b></a><br /><sub>Terminal AI coding-agent harness</sub></td>
 <td align="center"><a href="https://github.com/Yeachan-Heo/gajae-code/stargazers"><img src="https://img.shields.io/badge/%E2%98%85-3.1k-e3b341?style=flat-square" alt="★ 3.1k" /></a></td>
 <td align="center"><img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></td>
-<td><a href="https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-64-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 64" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-15-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 15" /></a></td>
+<td><a href="https://github.com/Yeachan-Heo/gajae-code/pulls?q=is%3Apr%20is%3Amerged%20author%3Anajy97"><img src="https://img.shields.io/badge/merged_PRs-67-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged PRs 67" /></a><br /><a href="https://github.com/Yeachan-Heo/gajae-code/issues?q=is%3Aissue%20author%3Anajy97"><img src="https://img.shields.io/badge/issues-17-1f6feb?style=flat-square&logo=github&logoColor=white" alt="issues 17" /></a></td>
 </tr>
 <tr>
 <td><img src="https://github.com/Yeachan-Heo.png?size=48" width="24" height="24" alt="" /> <a href="https://github.com/Yeachan-Heo/gajae-way"><b>Yeachan-Heo/gajae-way</b></a><br /><sub>Gateway for operator-owned agent sessions on Discord and Telegram</sub></td>
@@ -63,7 +63,7 @@ I build Python services that take LLM agents into production for financial-servi
 </tbody>
 </table>
 
-<sub>Merged since 2026-07-01. Updated 2026-11-26 by GitHub Actions.</sub>
+<sub>Merged since 2026-07-01. Updated 2026-11-27 by GitHub Actions.</sub>
 <!-- oss:table:end -->
 
 ### Selected contributions
@@ -75,10 +75,13 @@ I build Python services that take LLM agents into production for financial-servi
 
 <!-- oss:details:start -->
 <details>
-<summary>All 95 merged PRs</summary>
+<summary>All 98 merged PRs</summary>
 
-**[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** (64)
+**[Yeachan-Heo/gajae-code](https://github.com/Yeachan-Heo/gajae-code)** (67)
 
+- [#8093](https://github.com/Yeachan-Heo/gajae-code/pull/8093) fix(session): deliver async results at the next step boundary
+- [#7997](https://github.com/Yeachan-Heo/gajae-code/pull/7997) fix(monitor): suppress the duplicate async-result after a clean exit (#7993)
+- [#8011](https://github.com/Yeachan-Heo/gajae-code/pull/8011) fix(auth): keep the workspace name when a refreshed legacy credential is deduplicated
 - [#8009](https://github.com/Yeachan-Heo/gajae-code/pull/8009) fix(sdk): keep session hosts alive under a replacement broker and during a turn (#7998)
 - [#8010](https://github.com/Yeachan-Heo/gajae-code/pull/8010) fix(bash): prefer identity-bound signals when sparing the SDK broker (#8003 follow-up)
 - [#8007](https://github.com/Yeachan-Heo/gajae-code/pull/8007) fix(auth): keep one OpenAI Codex credential per ChatGPT workspace
